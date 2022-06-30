@@ -12,7 +12,7 @@ body {
     margin: 0 auto;
     overflow: hidden;
 }
-/* <--- HEADER ---> */
+/* <------------------------------ HEADER ------------------------------> */
 .header {
     width: 100%;
     max-height: 600px;
@@ -37,7 +37,11 @@ body {
     border-bottom: 2px solid #fff;
 }
 .header-profile {
-    width: 384px;
+    display: flex;
+    width: 392px;
+    height: 132px;
+    flex-direction: column;
+    justify-content: center;
     margin: 192px auto;
     border: 2px solid #fff;
     border-radius: 4px;
@@ -45,15 +49,12 @@ body {
     color: #fff;
 }
 .header-profile__title {
-    margin: 20px 0;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     font-size: 48px;
     font-weight: 300;
 }
 .header-profile__subtitle {
-    margin: 20px 0;
-    margin-top: 5px;
     font-size: 24px;
     font-weight: 300;
 }
-/* SECTION-ABOUT */
+/* <------------------------------ SECTION-ABOUT ------------------------------> */
