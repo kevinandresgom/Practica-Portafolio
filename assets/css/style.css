@@ -118,7 +118,7 @@ body {
 }
 .section-jobs__job {
     width: 23%;
-    max-width: 240px;
+    max-width: 320px;
     margin-bottom: 38px;
 }
 .job-thumb {
@@ -214,4 +214,30 @@ body {
 }
 .github:hover {
     background-color: #6e5494;
+}
+/* <------------------------------ RESPONSIVE DESING ------------------------------> */
+@media screen and (max-width: 768px) {
+    .nav {
+        text-align: center;
+    }
+    .section-jobs__job {
+        width: 46%;
+    }
+    .contact-input {
+        width: 100%;
+    }
+    .button-submit {
+        margin-top: 16px;
+    }
+}
+@media screen and (max-width: 512px) {
+    .header-profile {
+        width: 75%;
+    }
+    .header-profile__title {
+        font-size: 40px;
+    }
+    .heeader-profile__subtitle {
+        font-size: 20px;
+    }
 }
