@@ -191,3 +191,27 @@ body {
     background-color: #185ac4;
 }
 /* <------------------------------ FOOTER ------------------------------> */
+.footer {
+    background-color: #1e2b38;
+
+}
+.footer__inner-container {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+.footer__link {
+    display: inline-block;
+    margin: 0 16px;
+    padding: 8px 32px;
+    font-size: 32px;
+    border-radius: 4px;
+    color: #fff;
+    transition: all .33s ease;
+}
+.linkedin:hover {
+    background-color: #0077b5;
+}
+.github:hover {
+    background-color: #6e5494;
+}
